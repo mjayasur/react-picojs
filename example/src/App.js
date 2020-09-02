@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-picojs'
+import { FaceFinder } from 'react-picojs'
 import 'react-picojs/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+
+  return <FaceFinder height={500} width = {500} />
 }
 
 export default App
