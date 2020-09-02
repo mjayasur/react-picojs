@@ -15,12 +15,12 @@ npm install --save react-picojs
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-picojs'
+import FaceFinder from 'react-picojs'
 import 'react-picojs/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <FaceFinder width={500} height={500}/>
   }
 }
 ```
